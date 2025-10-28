@@ -1,0 +1,79 @@
+/* Subtle Enhancements to Existing Portfolio */
+
+/* Improve readability and spacing */
+.page__content {
+  line-height: 1.8;
+}
+
+.page__content h2 {
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.page__content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  color: #494e52;
+}
+
+/* Better list styling */
+.page__content ul {
+  margin-bottom: 1.5em;
+}
+
+.page__content li {
+  margin-bottom: 0.5em;
+}
+
+/* Subtle link improvements */
+.page__content a {
+  transition: color 0.2s ease;
+}
+
+.page__content a:hover {
+  text-decoration: underline;
+}
+
+/* Better code block styling */
+.page__content code {
+  padding: 0.2em 0.4em;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Improve author profile card */
+.author__avatar img {
+  transition: transform 0.3s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.05);
+}
+
+/* Better spacing for content sections */
+.page__content > p {
+  margin-bottom: 1.3em;
+}
+
+/* Subtle shadow for better depth */
+.author__urls-wrapper {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .page__content {
+    font-size: 16px;
+  }
+
+  .page__content h2 {
+    font-size: 1.5em;
+  }
+
+  .page__content h3 {
+    font-size: 1.2em;
+  }
+}
